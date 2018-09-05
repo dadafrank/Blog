@@ -1,0 +1,18 @@
+*{padding: 0;margin: 0;font-family: "等线 Light";}
+ul,ol,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+input,textarea {
+	border:none;
+	outline: none;
+}

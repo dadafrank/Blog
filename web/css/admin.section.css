@@ -1,0 +1,89 @@
+@media screen and (min-width:960px) {
+	.article_section {
+		width: 75%;
+	}
+	.article_manage {
+		width: 65%;
+	}
+	.pv {
+		width: 30%;
+	}
+	.doit>a {
+		margin: 0 4px;
+	}
+}
+
+@media screen and (max-width:960px) {
+	.article_section {
+		width: 100%;
+	}
+	.article_manage {
+		width: 100%;
+		
+	}
+	.pv {
+		width: 100%;
+	}
+}
+
+.article_section {
+	margin: auto;
+	margin-top: 20px;
+}
+.article_manage {
+	float: left;
+	
+}
+.pv {
+	float: right;
+}
+.article_inf {
+	height: 30px;
+	width: 100%;
+	margin-bottom: 2px;
+}
+.article_name {
+	height: 30px;
+	width: 60%;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	background-color: rgba(52,152,219,0.5);
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.doit {
+	width: 40%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	background-color: white;
+	font-size: 12px;
+}
+.doit>a {
+
+}
+.doit>a:hover {
+	border-bottom: 1px solid black;
+}
+
+.pv_inf {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+.pv_inf {
+	text-align: center;
+	line-height: 40px;
+}
+.pv_inf>span {
+	font-family: "微软雅黑";
+}
+.pv_sp1 {
+	font-size: 14px;
+}
+.pv_sp2 {
+	font-size: 18px;
+}

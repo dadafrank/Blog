@@ -1,0 +1,71 @@
+html,body {
+	height: 100%;
+}
+body {
+	background-image: url(../img/bg_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media screen and (min-width:960px) {
+	.logn {
+		width: 500px;
+		height: 230px;
+		margin-left: -250px;
+		margin-top: -150px;
+		
+	}
+	.logn_sub {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width:960px) {
+	.logn {
+		width: 300px;
+		height: 200px;
+		margin-left: -150px;
+		margin-top: -100px;
+	}
+	.logn_sub {
+		margin-top: 20px;
+	}
+}
+
+
+.logn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 4px;
+}
+.form {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding: 20px 0;
+}
+.logn_name,.logn_pass {
+	width: 90%;
+	margin-top: 20px;
+	height: 30px;
+	background-color: rgba(0,0,0,0);
+	border-bottom: 1px solid darkgray;
+	font-weight: bold;
+}
+.logn_sub {
+	width: 90%;
+	height: 34px;
+	border-radius: 30px;
+	background-color: skyblue;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+

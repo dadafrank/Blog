@@ -1,0 +1,142 @@
+/*电脑*/
+@media screen and (min-width:960px) {
+	.page_artilce {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 70px;
+	}
+	.read_mess,.white_mess{
+		width: 80%;
+		margin: auto;
+		margin-bottom: 70px;
+	}
+	.to_phone {
+		display: none;
+	}
+	.mess_sub {
+		float: right;
+	}
+
+}
+/*手机*/
+@media screen and (max-width:960px) {
+	.page_artilce {
+		margin: auto;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.read_mess,.white_mess{
+		width: 100%;
+		margin: auto;
+		margin-bottom: 30px;
+		
+	}
+	.mess_name,.mess_email {
+		padding-bottom: 10px;
+	}
+	.mess_sub {
+		float: left;
+	}
+}
+
+
+/*公共代码*/
+.page_artilce {
+	
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 76px;
+	padding-bottom: 30px;
+
+}
+.page_artilce>h2 {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.page_artilce>p {
+	text-align: center;
+	font-family: "微软雅黑";
+	color: dimgray;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.page_artilce>pre {
+	width: 90%;
+	margin: auto;
+	font-family: "微软雅黑";
+	color: dimgray;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.read_mess,.white_mess {
+	background-color: rgba(255,255,255,0.8);
+	
+}
+
+.message_body {
+	border-bottom: 1px solid lightgray;
+}
+.message_body>h4 {
+	width: 90%;
+	margin:auto;
+	text-align: left;
+	color: dimgray;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+	padding-top: 10px;
+	margin-bottom: 4px;
+	font-weight: 600;
+}
+.message_body>p {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	font-family: "黑体";
+	color: gray;
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+.message_body>pre {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 10px;
+	font-family: "微软雅黑";
+	color: gray;
+	font-size: 14px;
+}
+
+
+.white_mess>form {
+	width: 90%;
+	margin: auto;
+	padding: 30px 0;
+	padding-bottom: 40px;
+}
+.white_mess>form>input {
+	border: none;
+	outline: none;
+}
+.mess_content {
+	width:100%;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color:rgba(51,51,51,0);
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.mess_name,.mess_email {
+	height: 20px;
+	width: 40%;
+	background-color:rgba(51,51,51,0);
+}
+.mess_sub {
+	width: 60px;
+	height: 26px;
+	border-radius: 2px;
+	font-weight: bold;
+	color: white;
+	font-size: 11px;
+	background-color: rgba(135,206,235,0.8);
+}

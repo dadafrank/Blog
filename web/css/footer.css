@@ -1,0 +1,41 @@
+.blog_foot {
+	width: 100%;
+	background-color: rgb(55,56,56);
+	float: right;
+	padding: 10px 0;
+	padding-top: 16px;
+}
+.blog_foot p {
+	text-align: center;
+	margin-bottom: 8px;
+	color: gray;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+}
+.blog_foot_body>a {
+	color: gray;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing:2px;
+	margin: 0 4px;
+}
+
+
+.to_top {
+	height: 40px;
+	width: 40px;
+	background-color:rgba(46,139,87,0.3);
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	color:lightgray;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	display: none;
+	cursor: pointer;
+	border-radius: 2px;
+}
+

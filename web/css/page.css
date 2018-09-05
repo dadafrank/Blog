@@ -1,0 +1,49 @@
+@media screen and (min-width: 960px) {
+    .page {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .page {
+        width: 85%;
+    }
+}
+
+
+.page {
+    height: 80px;
+    margin: auto;
+    /*margin-bottom: 10px;*/
+    padding-top: 10px;
+    position: relative;
+}
+.page_cut,.page_add {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    color: skyblue;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 0 10px;
+    float: right;
+}
+.page_cut:hover,.page_add:hover {
+    background-color: skyblue;
+    color: white;
+}
+.page_num {
+    font-family: "黑体";
+    float: left;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 6px;
+    color: rgb(160,198,232);
+    font-size: 20px;
+}

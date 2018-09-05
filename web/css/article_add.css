@@ -1,0 +1,48 @@
+@media screen and (min-width:960px) {
+	.section {
+		width: 75%;
+	}
+}
+@media screen and (max-width:960px) {
+	.search {
+		width: 100%;
+	}
+}
+
+
+
+.section {
+	margin: auto;
+	margin-top: 20px;
+}
+.search>form {
+	width: 100%;
+}
+.section_form>input,.section_form>textarea,.file {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	text-indent: 1em;
+}
+.section_form>textarea {
+	height: 300px;
+	padding-top: 10px;
+}
+
+.file {
+	background-color: skyblue;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.file_file {
+	opacity: 0;
+	width: 100%;
+	position:relative;
+	top: -100%;
+}
+.sub {
+	background-color: skyblue;
+	color: white;
+	font-size: 16px;
+}

@@ -1,0 +1,72 @@
+@media screen and (min-width:960px) {
+	.mess_body {
+		width: 75%;
+	}
+	.mess_body_inf>textarea,.mess_body_inf>p {
+		width: 20%;
+		float: left;
+		height: 40px;
+		
+	}
+	.mess_body_inf {
+		width:100% ;
+		margin-bottom: 10px;
+		height: 40px;
+		background-color: white;
+	}
+	
+	.mess_body_inf>p {
+		line-height: 40px;
+	}
+	
+}
+
+@media  screen and (max-width:960px) {
+	.mess_body {
+		width: 100%;
+	}
+	.mess_body_inf>p,.mess_body_inf>textarea {
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+	}
+	.mess_body_inf>textarea {
+		height: 50px;
+	}
+	.p1,.p3 {
+		background-color: skyblue;
+		color: white;
+	}
+	.p2,.p4 {
+		background-color: white;
+	}
+	.mess_body_inf {
+		margin-bottom: 40px;
+	}
+}
+
+
+.mess_body {
+	margin: auto;
+	margin-top: 20px;
+}
+
+.mess_body_inf>p,.mess_body>textarea {
+	text-align: center;
+}
+.mess_body_inf>textarea {
+	resize: none;
+	line-height: 150%;
+	margin: 0;
+}
+a {
+	color: black;
+}
+
+
+.total {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
